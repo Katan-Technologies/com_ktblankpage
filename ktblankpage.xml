@@ -57,5 +57,9 @@
             <language tag="en-GB">admin/language/en-GB/com_ktblankpage.sys.ini</language>
         </languages>
     </administration>
-
+    <updateservers>
+        <server type="extension" priority="2" name="KT BlankPage">
+            https://raw.githubusercontent.com/Katan-Technologies/joomla_ext_updates/main/j4.x/components/com_ktblankpage/updates.xml
+        </server>
+    </updateservers>
 </extension>
